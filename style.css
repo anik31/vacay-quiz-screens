@@ -1,0 +1,13 @@
+/* || landing */
+
+.page-title{
+    margin: 2rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.quiz-card-container{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
