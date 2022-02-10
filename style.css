@@ -1,3 +1,17 @@
+/* || general */
+
+:root{
+    --primary-color-dark: #007ABC;
+}
+
+html{
+    color: var(--text-color);
+}
+
+body{
+    background-color: var(--lynx-white-color);
+}
+
 /* || landing */
 
 .page-title{
@@ -10,4 +24,54 @@
     display: flex;
     gap: 2rem;
     justify-content: center;
+}
+
+/* || rules */
+
+.rules-page-container, .rules-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rules-page-container{
+    height: 100vh;
+}
+
+.rules-card{
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    gap: 2rem;
+    background-color: var(--white-color);
+}
+
+.rules-card li{
+    list-style: none;
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 1.3rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.rules-card .fa-info-circle{
+    color: var(--primary-color);
+}
+
+.green-text, .red-text{
+    font-weight: 600;
+}
+
+.green-text{
+    color: var(--green-color-400);
+}
+
+.red-text{
+    color: var(--red-color-400);
+}
+
+.btn:hover{
+    background-color: var(--primary-color-dark);
 }
