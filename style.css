@@ -1,3 +1,17 @@
+/* || general */
+
+:root{
+    --primary-color-dark: #007ABC;
+}
+
+html{
+    color: var(--text-color);
+}
+
+body{
+    background-color: var(--lynx-white-color);
+}
+
 /* || landing */
 
 .page-title{
@@ -29,6 +43,7 @@
     padding: 2rem;
     border-radius: var(--border-radius);
     gap: 2rem;
+    background-color: var(--white-color);
 }
 
 .rules-card li{
@@ -55,4 +70,8 @@
 
 .red-text{
     color: var(--red-color-400);
+}
+
+.btn:hover{
+    background-color: var(--primary-color-dark);
 }
