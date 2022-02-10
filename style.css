@@ -28,13 +28,13 @@ body{
 
 /* || rules */
 
-.rules-page-container, .rules-card{
+.rules-page-container, .rules-card, .quiz-page-container{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.rules-page-container{
+.rules-page-container, .quiz-page-container{
     height: 100vh;
 }
 
@@ -74,4 +74,55 @@ body{
 
 .btn:hover{
     background-color: var(--primary-color-dark);
+}
+
+/* || quiz */
+
+.quiz-page-container{
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.question-score{
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+}
+
+.quiz-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+}
+
+.quiz-container li{
+    list-style: none;
+    padding: 1rem 10rem;
+    background-color: var(--white-color);
+    margin: 1rem;
+    border-radius: var(--border-radius);
+    background-color: var(--primary-color-100);
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.quiz-container .answer-correct{
+    background-color: var(--green-color-400);
+    color: var(--white-color);
+}
+
+.quiz-container .answer-wrong{
+    background-color: var(--red-color-400);
+    color: var(--white-color);
+}
+
+.result-page-body{
+    height: auto;
+    margin: 2rem 0;
 }
