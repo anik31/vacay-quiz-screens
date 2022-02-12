@@ -32,14 +32,10 @@ body{
 
 /* || rules */
 
-.rules-page-container, .rules-card, .quiz-page-container{
+.rules-card, .quiz-page-container{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.rules-page-container, .quiz-page-container{
-    height: 100vh;
 }
 
 .rules-card{
@@ -135,6 +131,7 @@ section{
 .quiz-page-container{
     flex-direction: column;
     gap: 3rem;
+    margin: 2rem 0;
 }
 
 .question-score{
@@ -178,9 +175,4 @@ section{
 .quiz-container .answer-wrong{
     background-color: var(--red-color-400);
     color: var(--white-color);
-}
-
-.result-page-body{
-    height: auto;
-    margin: 2rem 0;
 }
