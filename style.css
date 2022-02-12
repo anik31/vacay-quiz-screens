@@ -206,7 +206,7 @@ section{
 .category-container{
     display: grid;
     gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
 }
 .category-container:nth-child(n){
     align-items: center;
