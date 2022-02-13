@@ -192,9 +192,10 @@ section{
 
 .category{
     font-size: 3rem;
-    font-weight: 200;
+    font-weight: 300;
     width: fit-content;
     position: relative;
+    /* color: var(--primary-color-dark); */
     color: var(--text-color);
 }
 
