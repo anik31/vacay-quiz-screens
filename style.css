@@ -21,13 +21,16 @@ body{
 .page-title{
     margin: 2rem;
     text-align: center;
-    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    /* color: var(--primary-color); */
 }
 
 .quiz-card-container{
     display: flex;
     gap: 2rem;
     justify-content: center;
+    margin: 2rem 0;
 }
 
 /* || rules */
@@ -44,6 +47,7 @@ body{
     border-radius: var(--border-radius);
     gap: 2rem;
     background-color: var(--white-color);
+    margin-top: 5rem;
 }
 
 .rules-card li{
@@ -175,4 +179,52 @@ section{
 .quiz-container .answer-wrong{
     background-color: var(--red-color-400);
     color: var(--white-color);
+}
+
+/* || category */
+
+.categories h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.category{
+    font-size: 3rem;
+    font-weight: 300;
+    width: fit-content;
+    position: relative;
+    /* color: var(--primary-color-dark); */
+    color: var(--text-color);
+}
+
+.category .img-round-sizing{
+    width: 18rem;
+    height: 18rem;
+}
+
+.category-container{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(4,1fr);
+}
+.category-container:nth-child(n){
+    align-items: center;
+    justify-items: center;
+}
+
+.category > text{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(234, 234, 236,0.4);
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
 }
