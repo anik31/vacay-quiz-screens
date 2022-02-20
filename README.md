@@ -10,10 +10,10 @@ Vacay quiz is a web application for playing quizzes based on various Indian dest
 
 ## Features
 - Home page - https://vacay-quiz.netlify.app/
-- Quizzes by Category - https://vacay-quiz.netlify.app/category.html
-- Rules Page for while attempting Quiz - https://vacay-quiz.netlify.app/rule.html
-- MCQ based Quiz Question Page - https://vacay-quiz.netlify.app/quiz.html
-- Result Page with Answers & Score - https://vacay-quiz.netlify.app/result.html
+- Quizzes by Category - https://vacay-quiz.netlify.app/pages/category.html
+- Rules Page for while attempting Quiz - https://vacay-quiz.netlify.app/pages/rule.html
+- MCQ based Quiz Question Page - https://vacay-quiz.netlify.app/pages/quiz.html
+- Result Page with Answers & Score - https://vacay-quiz.netlify.app/pages/result.html
 
 ## Tech stack
 * HTML
