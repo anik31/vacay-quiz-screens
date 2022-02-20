@@ -6,7 +6,7 @@
 Vacay quiz is a web application for playing quizzes based on various Indian destinations. Vacay quiz is publicly hosted on Netlify at https://vacay-quiz.netlify.app/.
 
 ## Demo
-![image](https://user-images.githubusercontent.com/56336326/154799966-7213f9cc-d502-4b3b-8387-a7e8de89af89.png)
+![demo](https://user-images.githubusercontent.com/56336326/154799966-7213f9cc-d502-4b3b-8387-a7e8de89af89.png)
 
 ## Features
 - Home page - https://vacay-store.netlify.app/
@@ -20,5 +20,5 @@ Vacay quiz is a web application for playing quizzes based on various Indian dest
 * CSS
 
 ## Socials
-* https://twitter.com/_anik_31
-* https://www.linkedin.com/in/anik31/
+* Twitter - [_anik_31](https://twitter.com/_anik_31)
+* Github - [anik31](https://www.linkedin.com/in/anik31/)
