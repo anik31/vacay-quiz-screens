@@ -22,10 +22,15 @@ body{
 }
 
 .quiz-card-container{
-    display: flex;
+    display: grid;
     gap: 2rem;
-    justify-content: center;
-    margin: 2rem 0;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.quiz-card-container:nth-child(n){
+    justify-items: center;
 }
 
 section{
@@ -54,6 +59,8 @@ section{
     width: fit-content;
     height: auto;
     flex-wrap: wrap;
+    padding: 0 1rem;
+    text-align: center;
 }
 
 .hero-content h3{
@@ -85,7 +92,7 @@ section{
     border-radius: var(--border-radius);
     gap: 2rem;
     background-color: var(--white-color);
-    margin-top: 5rem;
+    margin: 5rem 2rem;
 }
 
 .rules-card li{
@@ -182,20 +189,20 @@ section{
     color: var(--text-color);
 }
 
-.category .img-round-sizing{
-    width: 18rem;
-    height: 18rem;
-}
-
 .category-container{
     display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
 }
 
 .category-container:nth-child(n){
-    align-items: center;
     justify-items: center;
+}
+
+.category img{
+    width: 18rem;
+    height: 18rem;
+    border-radius: var(--border-radius);
 }
 
 .category > text{
@@ -208,7 +215,15 @@ section{
     left: 0;
     right: 0;
     background-color: rgb(234, 234, 236,0.4);
-    border-radius: 50%;
+    border-radius: var(--border-radius);
     width: 18rem;
     height: 18rem;
+}
+
+/* || media queries */
+
+@media only screen and (max-width:1024px){
+    .hero{
+        flex-direction: column-reverse;
+    }
 }
